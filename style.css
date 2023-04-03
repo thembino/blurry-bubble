@@ -1,15 +1,14 @@
 #blob {
   background-color: black;
-  height: 150px;
+  height: 180px;
   aspect-ratio: 1;
   position: absolute;
   left: 50%;
   top: 50%;
   translate: -50% -50%;
   border-radius: 50%;
-  background: linear-gradient(to right, aquamarine, mediumpurple);
+  background: linear-gradient(to right, rgb(255, 255, 0), rgb(85, 16, 221));
   animation: rotate 50s infinite;
-  filter: blur(50px);
 }
 #background {
   background-color: black;
@@ -22,6 +21,9 @@
   }
   50% {
     scale: 1 1.8;
+  }
+  30% {
+    scale: 2 1.8;
   }
   to {
     rotate: 360deg;
